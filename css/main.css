@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    background-repeat: no-repeat;
 }
 
 .wrapper {
@@ -18,7 +19,6 @@
     right: 0;
     height: 120px;
     background-image: url(../img/01.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
     z-index: 1;
     background-position: left;
@@ -32,6 +32,27 @@
     position: absolute;
     height: 120px;
     background-image: url(../img/02.png);
-    background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.name {
+    background-image: url(../img/04.png);
+    height: 100%;
+    width: 15%;
+}
+
+.time {
+    background-image: url(../img/05.png);
+    height: 100%;
+    width: 25%;
+}
+
+.viva {
+    background-image: url(../img/03.png);
+    height: 100%;
+    width: 25%;
 }
