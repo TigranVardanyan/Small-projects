@@ -1,5 +1,7 @@
-const imgTime1 = document.querySelector(".imgTime1");
-const imgTime2 = document.querySelector(".imgTime2");
-const imgName = document.querySelector(".imgName");
+const banner_colser = document.querySelector("#banner_colser");
+const wrapper = document.querySelector(".wrapper");
 
 
+banner_colser.addEventListener("click", function() {
+    wrapper.remove();
+});

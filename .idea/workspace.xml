@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +44,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574834033799</updated>
-      <workItem from="1574834035178" duration="12194000" />
+      <workItem from="1574834035178" duration="12900000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1574834544014</created>
@@ -73,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574844501234</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="bug fixing">
+      <created>1574846395925</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574846395925</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +103,7 @@
     <MESSAGE value="structure" />
     <MESSAGE value="structure 2" />
     <MESSAGE value="styles,media queries" />
-    <option name="LAST_COMMIT_MESSAGE" value="styles,media queries" />
+    <MESSAGE value="bug fixing" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug fixing" />
   </component>
 </project>

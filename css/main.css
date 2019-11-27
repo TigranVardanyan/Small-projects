@@ -8,6 +8,19 @@
     box-sizing: border-box;
     background-repeat: no-repeat;
 }
+button {
+    z-index: 1;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border: none;
+    color: white;
+    outline: none;
+}
 
 .wrapper {
     height: var(--bannerWidth);
@@ -82,40 +95,14 @@
 }
 
 
-@media screen and (min-width: 1200px)   {
+@media screen and (min-width: 1500px)   {
     :root {
         --bannerWidth: 120px;
     }
-    .imgName {
-        height: 3.3rem;
-        margin: 2px;
-    }
-
-    .imgTime {
-        display: inline-flex;
-        margin: 2px;
-        text-align: center;
-    }
-
-    .imgTime1 {
-        height: 2.2rem;
-    }
-
-    .imgTime2 {
-        height: 2.2rem;
-    }
-
-    .imgViva {
-        height: 2.2rem;
-        margin: 2px;
-
-    }
-
     .car {
-        background-position: 108% 0;
+        background-position: 101% 0;
         width: 162%;
     }
-
     .red {
         background-position: 96% 0%;
         width: 76%;
