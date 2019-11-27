@@ -9,17 +9,25 @@
     background-repeat: no-repeat;
 }
 button {
-    z-index: 1;
+    z-index: 100;
     position: absolute;
     top: 5px;
     right: 5px;
     background: rgba(0,0,0,0.3);
     border-radius: 50%;
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
     border: none;
     color: white;
     outline: none;
+}
+
+.link {
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    z-index: 5;
 }
 
 .wrapper {
