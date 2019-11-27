@@ -1,4 +1,37 @@
-body {
-    background-color: black;
-    height: 100px;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 120px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.car {
+    width: 66%;
+    position: absolute;
+    right: 0;
+    height: 120px;
+    background-image: url(../img/01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    background-position: left;
+}
+
+
+.red {
+    z-index: 2;
+    background-position: right;
+    width: 66%;
+    position: absolute;
+    height: 120px;
+    background-image: url(../img/02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
