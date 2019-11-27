@@ -20,6 +20,28 @@ button {
     border: none;
     color: white;
     outline: none;
+    position: absolute;
+    cursor: pointer;
+}
+
+.close1 , .close2 {
+    position: absolute;
+
+    transform-origin: 50% 50%;
+    display: block;
+    background-color: white;
+    width: 28px;
+    height: 5px;
+    top: 14px;
+    right: 3px;
+}
+
+.close1 {
+    transform: rotate(45deg);
+}
+
+.close2 {
+    transform: rotate(-45deg);
 }
 
 .link {
