@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 1000px;
+}
+.wrapper {
+  will-change:transform;
+  pointer-events: none;
+  .img_text_container1 {
+    width: 80vw;
+    margin: 0 auto;
+    position: absolute;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    will-change:transform;
+    .img1, .img2, .img3, .img4, .img5 {
+      position:absolute;
+      width:760px;
+      height:760px;
+      will-change:transform;
+    }
+  }
+  .img_1, .img_2, .img_3, .img_4, .img_5 {
+    position:absolute;
+    height: 275px;
+    will-change:transform;
+  }
+  .img_1 {
+    height: 600px;
+  }
+}

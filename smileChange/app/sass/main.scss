@@ -1,0 +1,131 @@
+:root {
+  --swipe-width:240px;
+  --swipe-heigh:96px;
+  --swipe-gap:4px;
+  --smile-size:calc(var(--swipe-heigh) - 2 * var(--swipe-gap));
+  --smile-mouth-size: 32px;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+.wrapper {
+  position: relative;
+  top: calc(50% - var(--swipe-heigh) / 2);
+  left: calc(50% - var(--swipe-width) / 2);
+  display: block;
+  width: var(--swipe-width);
+  height: var(--swipe-heigh);
+  input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    &:checked + .slider {
+      background-color: #ffb5b5;
+    }
+
+    &:focus + .slider {
+      box-shadow: 0 0 1px #ffb5b5;
+    }
+
+    &:checked + .slider .smile {
+      transform: translateX( calc(var(--swipe-width) - var(--swipe-gap) - var(--swipe-gap) - var(--smile-size)));
+      transition: all .4s ease;
+      font-size: 0.7rem;
+      .smile_mouth {
+        transition: all .4s ease;
+        height: var(--smile-mouth-size);
+        width: var(--smile-mouth-size);
+        border-radius: 50%;
+        background-image: linear-gradient(black 65%, transparent 65%);
+        transform: rotate(180deg);
+        transform-origin: 50% 50%;
+        display: block;
+        position: absolute;
+        bottom: 20%;
+        right: calc(50% - var(--smile-mouth-size) / 2);
+        overflow: hidden;
+        .tongue {
+          transition: 0.4s all ease;
+          position: absolute;
+          top:-7px;
+          right: calc(50% - 9px);
+          width: 18px;
+          height: 18px;
+          background-image: linear-gradient(0deg, red 65%, transparent 65%);
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 68px;
+    .smile {
+      position: absolute;
+      content: "";
+      height: var(--smile-size);
+      width: var(--smile-size);
+      left: var(--swipe-gap);
+      bottom: var(--swipe-gap);;
+      background-color: white;
+      -webkit-transition: .4s;
+      transition: all .4s ease;
+      border-radius: 50%;
+      font-size: 0.7rem;
+      .smile_leye {
+        display: block;
+        position: absolute;
+        top: 30%;
+        left: 20%;
+      }
+      .smile_reye {
+        display: block;
+        position: absolute;
+        top: 30%;
+        right: 20%;
+      }
+      .smile_mouth {
+        transition: all .4s ease;
+        height: var(--smile-mouth-size);
+        width: var(--smile-mouth-size);
+        border-radius: 50%;
+        background-image: linear-gradient(black 65%, transparent 65%);
+        transform: rotate(0deg);
+        display: block;
+        position: absolute;
+        bottom: 20%;
+        right: calc(50% - var(--smile-mouth-size) / 2);
+        .tongue {
+          transition: 0.4s all ease;
+          position: absolute;
+          top:-7px;
+          right: calc(50% - 9px);
+          width: 0px;
+          height: 0px;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+

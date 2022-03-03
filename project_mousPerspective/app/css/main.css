@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  cursor: none; }
+  body .wrapper {
+    overflow: hidden; }
+    body .wrapper .header {
+      height: 65vh;
+      background-color: #000; }
+    body .wrapper .main {
+      height: 35vh;
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100 */
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3828c9+0,585aa3+100 */
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0010c1+0,0097ce+100 */
+      background: #0010c1;
+      /* Old browsers */
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, #0010c1 0%, #0097ce 100%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: -webkit-gradient(linear, left top, left bottom, from(#0010c1), to(#0097ce));
+      background: -o-linear-gradient(top, #0010c1 0%, #0097ce 100%);
+      background: linear-gradient(to bottom, #0010c1 0%, #0097ce 100%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0010c1', endColorstr='#0097ce',GradientType=0 );
+      /* IE6-9 */
+      position: relative; }
+      body .wrapper .main img {
+        position: absolute;
+        -webkit-transform: scale(0);
+            -ms-transform: scale(0);
+                transform: scale(0); }
